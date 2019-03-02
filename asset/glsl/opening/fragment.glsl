@@ -319,38 +319,6 @@ void main(void) {
 
                 t += rand(gl_FragCoord.xy) * 0.03;
                 t *= time * 2.7;
-
-                // テキスト追加テスト
-
-                /*
-
-                bool isDraw = false;
-                ch_pos = ch_start;
-
-                if (isFitTime(time, 0.2, 0.06)) {
-                    isDraw = true;
-                    _ _ _ R E A D Y
-                } else if (isFitTime(time, 0.4, 0.06)) {
-                    isDraw = true;
-                    _ _ _ _ G E T
-                } else if (isFitTime(time, 0.6, 0.06)) {
-                    isDraw = true;
-                    _ _ _ _ Y O U
-                } else if (isFitTime(time, 0.8, 0.06)) {
-                    isDraw = true;
-                    _ _ _ _ _ A
-                } else if (isFitTime(time, 1.0, 0.06)) {
-                    isDraw = true;
-                    _ _ _ L O V E R
-                }
-
-                // 描画
-                if (isDraw) {
-                    float textPower = 1.0 - (0.04 / d*2.0);
-                    if (textPower > 0.1) t += 0.3;
-                }
-
-                */
             }
         }
     }

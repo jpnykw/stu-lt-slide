@@ -154,15 +154,13 @@
 				"top", "40%",
 
 				"font-size", "40px",
-				"color", "#333",
-
-				"letter-spacing", "1px"
+				"color", "#333"
 			]
 		},
 
 		{
 			"dom": "h1",
-			"text": "言語",
+			"text": "使える言語",
 
 			"css": [
 				"transform", "translate(-50%, -50%)",
@@ -193,9 +191,78 @@
 				"top", "55%",
 
 				"font-size", "40px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "+ Railsを会社で使う",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "60%",
+
+				"font-size", "40px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "h1",
+			"text": "ID",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "70%",
+
+				"font-size", "40px",
 				"color", "#333",
 
-				"letter-spacing", "1px"
+				"letter-spacing", "1px",
+				"color", "#ff1c49"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "JPNYKW",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "75%",
+
+				"font-size", "40px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "Twitter, GitHub等 基本的にこれ",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "80%",
+
+				"font-size", "40px",
+				"color", "#333"
 			]
 		}
 	],
@@ -203,7 +270,194 @@
 	"4": [
 		{
 			"dom": "h1",
-			"text": "プロジェクト"
+			"text": "プロジェクト",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "20%",
+
+				"letter-spacing", "1px",
+				"font-size", "60px",
+				"color", "#ff1c49",
+
+				"border-bottom", "solid 1px #222"
+			]
+		},
+
+		{
+			"dom": "img",
+			"src": "./asset/image/project_1.PNG",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "29%",
+				"top", "50%",
+
+				"width", "20%"
+			]
+		},
+
+		{
+			"dom": "img",
+			"src": "./asset/image/project_4.PNG",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%",
+
+				"width", "20%"
+			]
+		},
+
+		{
+			"dom": "img",
+			"src": "./asset/image/project_3.PNG",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "71%",
+				"top", "50%",
+
+				"width", "20%"
+			]
+		},
+
+		{
+			"dom": "h2",
+			"text": "AURA",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "29%",
+				"top", "64%",
+
+				"font-size", "40px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "div",
+			"text": "<p>2Dシューティングゲーム</p><p>現在は未公開作品</p><p>WebGLに移植中</p>",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "29%",
+				"top", "76%",
+
+				"font-size", "20px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "h2",
+			"text": "Portfolio",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "64%",
+
+				"font-size", "40px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "div",
+			"text": "<p>新しいポートフォリオ</p><p>LTに間に合わせたかったけど未完成</p><p>近日中に更新し反映</p>",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "76%",
+
+				"font-size", "20px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "h2",
+			"text": "eChat",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "71%",
+				"top", "64%",
+
+				"font-size", "40px",
+				"color", "#333"
+			]
+		},
+
+		{
+			"dom": "div",
+			"text": "<p>最近作ったウェブサービス</p><p>完成してるけど未公開作品</p><p>こちらも近日中に公開</p>",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "71%",
+				"top", "76%",
+
+				"font-size", "20px",
+				"color", "#333"
+			]
+		}
+	],
+
+	"5": [
+		{
+			"dom": "h1",
+			"text": "WebGLとの出会い",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "20%",
+
+				"letter-spacing", "1px",
+				"font-size", "60px",
+				"color", "#ff1c49",
+
+				"border-bottom", "solid 1px #222"
+			]
 		}
 	]
 }
