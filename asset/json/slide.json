@@ -1,0 +1,209 @@
+{
+    "0": [
+		{
+			"dom": "canvas",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%"
+			]
+		},
+
+		{
+			"dom": "img",
+			"src": "./asset/image/logo.png",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%",
+
+				"width", "84%",
+
+				"opacity", "0.4",
+				"-webkit-filter", "blur(12px)"
+			]
+		},
+
+		{
+			"dom": "img",
+			"src": "./asset/image/logo.png",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%",
+
+				"width", "84%"
+			]
+		}
+	],
+
+	"1": [
+		{
+			"dom": "p",
+			"text": "まず始めに…",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%",
+
+				"font-size", "36px",
+				"color", "#333"
+			]
+		}
+	],
+
+	"2": [
+		{
+			"dom": "canvas",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%",
+
+				"z-index", "1"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "読み込み中",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%",
+
+				"font-family", "'Open Sans', sans-serif",
+				"font-size", "36px"
+			]
+		}
+	],
+
+	"3": [
+		{
+			"dom": "h1",
+			"text": "自己紹介",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "20%",
+
+				"font-size", "60px",
+				"color", "#ff1c49",
+
+				"border-bottom", "solid 1px #222"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "16歳(高2)",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "35%",
+
+				"font-size", "40px",
+				"color", "#333",
+
+				"letter-spacing", "1px"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "N高 2期生",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "40%",
+
+				"font-size", "40px",
+				"color", "#333",
+
+				"letter-spacing", "1px"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "言語",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "50%",
+
+				"font-size", "40px",
+				"color", "#333",
+
+				"letter-spacing", "1px",
+				"color", "#ff1c49"
+			]
+		},
+
+		{
+			"dom": "p",
+			"text": "JavaScript / Python / C#",
+
+			"css": [
+				"transform", "translate(-50%, -50%)",
+				"position", "absolute",
+
+				"margin", "0",
+				"left", "50%",
+				"top", "55%",
+
+				"font-size", "40px",
+				"color", "#333",
+
+				"letter-spacing", "1px"
+			]
+		}
+	],
+
+	"4": [
+		{
+			"dom": "h1",
+			"text": "プロジェクト"
+		}
+	]
+}
