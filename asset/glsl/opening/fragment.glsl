@@ -73,7 +73,7 @@ bool isFitTime(float t, float u, float diff) {
     return abs(t - u) < diff;
 }
 
-// 文字
+// 文字のデータ
 const vec2 ch_size  = vec2(1.0, 2.0) * 0.6;
 const vec2 ch_space = ch_size + vec2(1.0, 1.0);
 const vec2 ch_start = vec2 (ch_space.x * -5., 1.);
@@ -170,6 +170,7 @@ void ddigit(int n) {
 #define firstAnimeMax 20
 
 void main(void) {
+    // ランダム生成したアニメーションステータス
     float vertex[20], size[20], bold[20], crossX[20], crossY[20];
 
     vertex[0] = 3.0;
@@ -275,11 +276,11 @@ void main(void) {
     crossY[16] = 0.6348054098057472;
     crossY[17] = -0.4799540511656537;
     crossY[18] = 0.6480520378191748;
-    crossY[19] =    0.03806044602562775;
+    crossY[19] = 0.03806044602562775;
 
     vec2 p = (gl_FragCoord.xy * 2.0 - resolution) / min(resolution.x, resolution.y);
 
-    // アニメーションステータス
+    // 詳細なアニメーションステータス
     int type = 0;
     float t, u;
 
@@ -320,6 +321,9 @@ void main(void) {
                 t *= time * 2.7;
 
                 // テキスト追加テスト
+
+                /*
+
                 bool isDraw = false;
                 ch_pos = ch_start;
 
@@ -345,6 +349,8 @@ void main(void) {
                     float textPower = 1.0 - (0.04 / d*2.0);
                     if (textPower > 0.1) t += 0.3;
                 }
+
+                */
             }
         }
     }
@@ -444,10 +450,10 @@ void main(void) {
             _ _ _ _ _ n0
         } else if (isFitTime(time, 9.3, 0.09)) {
             isDraw = true;
-            _ _ _ _  n1
+            _ _ _ _ _ _  n1
         } else if (isFitTime(time, 9.6, 0.09)) {
             isDraw = true;
-            _ _ _ _ _ n9
+            _ _ _ _ n9
         } else if (isFitTime(time, 9.9, 0.09)) {
             isDraw = true;
             _ _ _ _ G O s_greater
@@ -457,8 +463,7 @@ void main(void) {
             _ _ _ S T A R T
 
             float textPower = 1.0 - (0.04 / d*2.0);
-            if (textPower > (time - 10.0) * 0.36) {
-                // t += textPower + time * 0.1;
+            if (textPower > (time - 10.0) * 0.46) {
                 t = 1.0 - length(textPower);
             } else {
                 t = 0.0;
@@ -469,17 +474,12 @@ void main(void) {
             if (isDraw) {
                 float textPower = 1.0 - (0.04 / d*2.0);
                 if (textPower > 0.1) {
-                    t = 1.0;
+                    t =  1.0 - length(textPower);
                     type = 0;
                 }
             }
         }
     }
-
-    // for (float i = 0.0; i < 10.0; i++) {
-    //     float dotColor = drawDot(vec2(-0.5 + i / 10.0, 0.0), p, 0.02);
-    //     if (dotColor == 1.0) t = 1.0;
-    // }
 
     // レンダリング
     vec4 color;
