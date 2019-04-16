@@ -253,8 +253,8 @@
                         const beforePage = status.page.now;
                         keyBuffer[e.keyCode] = true;
 
-                        if (keyBuffer[37] && status.page.now > 0) status.page.now --;
-                        if (keyBuffer[39] && status.page.now < status.page.max) status.page.now++;
+                        if ((keyBuffer[37] || keyBuffer[38]) && status.page.now > 0) status.page.now --;
+                        if ((keyBuffer[39] || keyBuffer[40]) && status.page.now < status.page.max) status.page.now++;
 
                         if (beforePage != status.page.now) {
                             renderPage(status.page.now);
